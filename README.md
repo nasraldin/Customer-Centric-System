@@ -54,4 +54,7 @@ This layer is a RestApi application based and .NET Core API 3.1. This layer depe
 
 ## How to run
 Set Startup project from solution and make 3 services start (IdentityServer, CustomerService.API, AccountService.API, StatementService.API) 
-Use username/password nasr 
+- Use username/password nasr 
+- from swagger UI heat this path to make call get (​/api​/v1​/Customers​/{id}) you can use 1 to retrieve simple data this will get customer details include account info from account service you need to be Authorized from swagger UI to get access 
+
+
