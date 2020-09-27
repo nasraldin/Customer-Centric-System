@@ -53,4 +53,4 @@ This layer is a RestApi application based and .NET Core API 3.1. This layer depe
 - StatementService.API
 
 ## How to run
-Set Startup project from sulotion and make 3 services start (IdentityServer, CustomerService.API, AccountService.API, StatementService.API) 
+Set Startup project from solution and make 3 services start (IdentityServer, CustomerService.API, AccountService.API, StatementService.API) 
