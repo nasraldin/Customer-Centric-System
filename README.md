@@ -23,34 +23,34 @@ This project use .Net Core 3.1
 
 ## Development
 
-Core
+-Core
 This will contain all entities, exceptions, interfaces, types and logic specific to the domain layer.
 
-Infrastructure
+-Infrastructure
 This layer contains all application logic and classes for accessing external resources.
 
-Api
+-Api
 This layer is a RestApi application based and .NET Core API 3.1. This layer depends on the Infrastructure layer.
 
 ## Services
 
 ## OAuth
-IdentityServer
+-IdentityServer
 
 ## CustomerService
-CustomerService.Core
-CustomerService.Infrastructure
-CustomerService.API - this service call account service to get list of accounts releat to cutomer
+-CustomerService.Core
+-CustomerService.Infrastructure
+-CustomerService.API - this service call account service to get list of accounts releat to cutomer
 
 ## AccountService
-AccountService.Core
-AccountService.Infrastructure
-AccountService.API
+-AccountService.Core
+-AccountService.Infrastructure
+-AccountService.API
 
 ## StatementService
-StatementService.Core
-StatementService.Infrastructure
-StatementService.API
+-StatementService.Core
+-StatementService.Infrastructure
+-StatementService.API
 
 ## How to run
 Set Startup project from sulotion and make 3 services start (IdentityServer, CustomerService.API, AccountService.API, StatementService.API) 
