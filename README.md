@@ -1,6 +1,6 @@
 # Customer Centric System
 
-This project use .Net Core 3.1 and Angular CLI version 8.3.21
+This project use .Net Core 3.1
 
 - .NET Core 3.1
 - Entity Framework Core 3.1
